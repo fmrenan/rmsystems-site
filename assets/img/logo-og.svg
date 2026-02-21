@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fundo -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+
+  <defs>
+    <linearGradient id="rmTechGradientDark" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grupo central -->
+  <g transform="translate(200,165) scale(2.5)">
+
+    <!-- Símbolo -->
+    <circle cx="60" cy="60" r="22" fill="url(#rmTechGradientDark)" />
+
+    <circle cx="60" cy="15" r="10" fill="#3B82F6"/>
+    <circle cx="105" cy="60" r="10" fill="#3B82F6"/>
+    <circle cx="60" cy="105" r="10" fill="#3B82F6"/>
+    <circle cx="15" cy="60" r="10" fill="#3B82F6"/>
+
+    <line x1="60" y1="38" x2="60" y2="25" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+    <line x1="82" y1="60" x2="95" y2="60" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+    <line x1="60" y1="82" x2="60" y2="95" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+    <line x1="38" y1="60" x2="25" y2="60" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+
+  </g>
+
+  <!-- Nome -->
+  <text x="550" y="320"
+        font-family="Space Grotesk, Arial, sans-serif"
+        font-size="96"
+        font-weight="600"
+        fill="#FFFFFF"
+        letter-spacing="2">
+    RM Systems
+  </text>
+
+  <!-- Tagline -->
+  <text x="555" y="390"
+        font-family="Space Grotesk, Arial, sans-serif"
+        font-size="36"
+        font-weight="400"
+        fill="#CBD5E1"
+        letter-spacing="3">
+    Soluções em Tecnologia
+  </text>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="rmFaviconGradient" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Núcleo -->
+  <circle cx="60" cy="60" r="22" fill="url(#rmFaviconGradient)" />
+
+  <!-- Nodes -->
+  <circle cx="60" cy="10" r="10" fill="#3B82F6"/>
+  <circle cx="110" cy="60" r="10" fill="#3B82F6"/>
+  <circle cx="60" cy="110" r="10" fill="#3B82F6"/>
+  <circle cx="10" cy="60" r="10" fill="#3B82F6"/>
+
+  <!-- Conexões -->
+  <line x1="60" y1="38" x2="60" y2="20" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <line x1="82" y1="60" x2="100" y2="60" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="82" x2="60" y2="100" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <line x1="38" y1="60" x2="20" y2="60" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+
+</svg>
