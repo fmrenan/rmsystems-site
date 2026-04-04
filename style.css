@@ -96,6 +96,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 1200;
+  padding-top: env(safe-area-inset-top);
   border-bottom: 1px solid transparent;
   background: rgba(6, 15, 31, 0.76);
   backdrop-filter: blur(14px);
@@ -452,7 +453,7 @@ p {
 }
 
 .site-footer {
-  padding: 26px 0;
+  padding: 26px 0 calc(26px + env(safe-area-inset-bottom));
   background: #060f1f;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
