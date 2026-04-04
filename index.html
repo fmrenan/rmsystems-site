@@ -5,179 +5,282 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Básico -->
   <title>RM Systems | Soluções em Tecnologia</title>
-  <meta name="description" content="A RM Systems oferece desenvolvimento de software, consultoria técnica, arquitetura de sistemas e automação de processos para empresas que buscam alta performance." />
+  <meta name="description" content="A RM Systems oferece desenvolvimento de software, consultoria técnica, arquitetura de sistemas e automação de processos em Cachoeiro de Itapemirim, ES e região." />
+  <meta name="keywords" content="soluções em tecnologia, desenvolvimento de software, consultoria em tecnologia, automação de processos, Cachoeiro de Itapemirim, Espírito Santo, ES" />
   <meta name="robots" content="index, follow" />
+  <meta name="author" content="RM Systems" />
+  <meta name="geo.region" content="BR-ES" />
+  <meta name="geo.placename" content="Cachoeiro de Itapemirim" />
   <link rel="canonical" href="https://rmsystems.app/" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="RM Systems | Soluções em Tecnologia" />
-  <meta property="og:description" content="Desenvolvimento de software, consultoria técnica e automação de processos." />
+  <meta property="og:title" content="RM Systems | Soluções em Tecnologia em Cachoeiro de Itapemirim, ES" />
+  <meta property="og:description" content="Desenvolvimento de software, consultoria técnica e automação de processos para empresas que buscam performance e crescimento." />
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
   <meta property="og:url" content="https://rmsystems.app/" />
   <meta property="og:image" content="https://rmsystems.app/assets/img/logo-og.png" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="RM Systems | Soluções em Tecnologia" />
-  <meta name="twitter:description" content="Desenvolvimento de software e consultoria em tecnologia." />
+  <meta name="twitter:title" content="RM Systems | Soluções em Tecnologia em Cachoeiro de Itapemirim, ES" />
+  <meta name="twitter:description" content="Projetos de software, arquitetura de sistemas e automação para empresas no Espírito Santo." />
   <meta name="twitter:image" content="https://rmsystems.app/assets/img/logo-og.png" />
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Sora:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg">
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="/assets/img/icon.svg" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" aria-label="RM Systems - Início">
+        <img src="assets/img/logo-white.svg" alt="RM Systems - Soluções em Tecnologia" />
+      </a>
 
-<header class="header">
-  <div class="container nav-container">
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5528999429834" class="nav-btn" target="_blank" rel="noopener noreferrer">Falar com Especialista</a>
+      </nav>
 
-    <div class="logo">
-      <img src="assets/img/logo-white.svg" alt="RM Systems - Soluções em Tecnologia">
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
+  </header>
 
-    <nav class="nav" id="nav">
-      <a href="#servicos">Serviços</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
-      <a href="#contato" class="nav-btn">Falar com Especialista</a>
-    </nav>
+  <div class="overlay" id="overlay"></div>
 
-    <!-- Botão Hambúrguer -->
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Soluções em tecnologia para empresas que querem escalar</p>
+          <h1>Desenvolvimento de Software e Consultoria em Tecnologia</h1>
+          <p class="hero-description">
+            Soluções escaláveis, arquitetura robusta e automação inteligente para empresas modernas em
+            Cachoeiro de Itapemirim, ES e região.
+          </p>
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+            <a href="#servicos" class="btn btn-ghost">Conhecer Serviços</a>
+          </div>
+          <ul class="hero-tags" aria-label="Destaques da RM Systems">
+            <li>Projetos sob medida</li>
+            <li>Alta performance</li>
+            <li>Foco em resultado</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumo de atuação">
+          <h2>RM Systems</h2>
+          <p>
+            Parceira tecnológica para empresas que precisam evoluir sistemas, reduzir gargalos operacionais e
+            acelerar entregas com segurança.
+          </p>
+          <div class="panel-items">
+            <div>
+              <strong>Atendimento Local</strong>
+              <span>Cachoeiro de Itapemirim, ES</span>
+            </div>
+            <div>
+              <strong>Especialidade</strong>
+              <span>Software, arquitetura e automação</span>
+            </div>
+            <div>
+              <strong>Contato Direto</strong>
+              <span><a href="https://wa.me/5528999429834" target="_blank" rel="noopener noreferrer">WhatsApp: (28) 99942-9834</a></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Serviços de Tecnologia</p>
+          <h2>Soluções completas para projetos digitais profissionais</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Desenvolvimento de Software Sob Medida</h3>
+            <p>
+              Criação de aplicações web, APIs, microsserviços e sistemas corporativos com foco em performance
+              e escalabilidade.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Consultoria em Arquitetura de Sistemas</h3>
+            <p>
+              Definição de arquitetura, revisão de código, melhoria de performance e boas práticas de
+              engenharia de software.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Automação e Integrações</h3>
+            <p>
+              Automação de processos e integração entre sistemas para ganho de eficiência operacional.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Diferenciais</p>
+          <h2>Abordagem técnica com visão de negócio</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit">
+            <h3>Diagnóstico claro</h3>
+            <p>Avaliamos o cenário atual e priorizamos o que gera impacto real no seu crescimento.</p>
+          </article>
+          <article class="benefit">
+            <h3>Execução consistente</h3>
+            <p>Entrega orientada a qualidade, estabilidade e evolução contínua dos sistemas.</p>
+          </article>
+          <article class="benefit">
+            <h3>Parceria estratégica</h3>
+            <p>Atuação próxima para apoiar decisões técnicas com foco em resultado de longo prazo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="about-panel">
+          <p class="eyebrow">Sobre a RM Systems</p>
+          <h2>Tecnologia de alta performance com atendimento próximo</h2>
+          <p>
+            A RM Systems é especializada em soluções tecnológicas de alta performance, atuando com desenvolvimento
+            backend, arquitetura de sistemas e modernização tecnológica.
+          </p>
+          <p>
+            Com atuação em Cachoeiro de Itapemirim, ES, ajudamos empresas a tirar projetos do papel com estrutura,
+            segurança e escala.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos construir seu próximo projeto em tecnologia</h2>
+          <p>
+            Se você procura uma empresa de tecnologia em Cachoeiro de Itapemirim para desenvolver sistemas,
+            integrar soluções e acelerar resultados, fale com a RM Systems.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <p><strong>Email:</strong> <a href="mailto:rmsystemsbr@gmail.com">rmsystemsbr@gmail.com</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5528999429834" target="_blank" rel="noopener noreferrer">(28) 99942-9834</a></p>
+          <a href="https://wa.me/5528999429834" target="_blank" rel="noopener noreferrer" class="btn btn-primary full">Falar com Especialista</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 RM Systems - Todos os direitos reservados. CNPJ 42.762.023/0001-83</p>
     </div>
+  </footer>
 
-  </div>
-</header>
-
-<div class="overlay" id="overlay"></div>
-
-<main>
-
-<section class="hero">
-  <div class="container">
-    <h1>Desenvolvimento de Software e Consultoria em Tecnologia</h1>
-    <p>Soluções escaláveis, arquitetura robusta e automação inteligente para empresas modernas.</p>
-    <a href="#contato" class="btn">Solicitar Orçamento</a>
-  </div>
-</section>
-
-<section id="servicos" class="section">
-  <div class="container">
-    <h2>Serviços de Tecnologia</h2>
-
-    <div class="cards">
-        <article class="card">
-        <h3>Desenvolvimento de Software Sob Medida</h3>
-        <p>Criação de aplicações web, APIs, microsserviços e sistemas corporativos com foco em performance e escalabilidade.</p>
-        </article>
-
-        <article class="card">
-        <h3>Consultoria em Arquitetura de Sistemas</h3>
-        <p>Definição de arquitetura, revisão de código, melhoria de performance e boas práticas de engenharia de software.</p>
-        </article>
-
-        <article class="card">
-        <h3>Automação e Integrações</h3>
-        <p>Automação de processos e integração entre sistemas para ganho de eficiência operacional.</p>
-        </article>
-    </div>
-
-  </div>
-</section>
-
-<section id="sobre" class="section dark">
-  <div class="container">
-    <h2>Sobre a RM Systems</h2>
-    <p>A RM Systems é especializada em soluções tecnológicas de alta performance, atuando com desenvolvimento backend, arquitetura de sistemas e modernização tecnológica.</p>
-  </div>
-</section>
-
-<section id="contato" class="section">
-  <div class="container">
-    <h2>Contato</h2>
-    <p>Email: rmsystemsbr@gmail.com</p>
-    <p>Telefone: (28) 99942-9834</p>
-    <a href="mailto:rmsystemsbr@gmail.com" class="btn">Falar com Especialista</a>
-  </div>
-</section>
-
-</main>
-
-<footer>
-  <div class="container">
-    <p>© 2026 RM Systems - Todos os direitos reservados. - CNPJ 42.762.023/0001-83</p>
-  </div>
-</footer>
-
-<!-- Schema.org -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "RM Systems",
-  "url": "https://rmsystems.app",
-  "logo": "https://rmsystems.app/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "RM Systems",
+    "image": "https://rmsystems.app/assets/img/logo-og.png",
+    "url": "https://rmsystems.app/",
     "telephone": "+55-28-99942-9834",
-    "contactType": "customer service",
-    "areaServed": "BR",
-    "availableLanguage": "Portuguese"
+    "email": "rmsystemsbr@gmail.com",
+    "description": "Desenvolvimento de software, consultoria em arquitetura de sistemas e automação de processos para empresas.",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cachoeiro de Itapemirim",
+      "addressRegion": "ES",
+      "addressCountry": "BR"
+    },
+    "areaServed": [
+      "Cachoeiro de Itapemirim",
+      "Espírito Santo"
+    ],
+    "serviceType": [
+      "Desenvolvimento de Software Sob Medida",
+      "Consultoria em Arquitetura de Sistemas",
+      "Automação e Integrações"
+    ]
   }
-}
-</script>
+  </script>
 
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
-      e.preventDefault();
+  <script>
+    const header = document.getElementById("header");
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("nav");
+    const overlay = document.getElementById("overlay");
+    const navLinks = document.querySelectorAll('.nav a[href^="#"]');
 
-      const target = document.querySelector(this.getAttribute("href"));
+    function closeMenu() {
+      hamburger.classList.remove("active");
+      nav.classList.remove("active");
+      overlay.classList.remove("active");
+      document.body.classList.remove("menu-open");
+      hamburger.setAttribute("aria-expanded", "false");
+    }
 
-      if (target) {
-        const offset = 80; // altura do header
-        const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = elementPosition - offset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth"
-        });
-      }
+    hamburger.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("active");
+      hamburger.classList.toggle("active", isOpen);
+      overlay.classList.toggle("active", isOpen);
+      document.body.classList.toggle("menu-open", isOpen);
+      hamburger.setAttribute("aria-expanded", String(isOpen));
     });
-  });
-</script>
 
-<script>
-  const hamburger = document.getElementById("hamburger");
-  const nav = document.getElementById("nav");
-  const overlay = document.getElementById("overlay");
+    overlay.addEventListener("click", closeMenu);
 
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    nav.classList.toggle("active");
-    overlay.classList.toggle("active");
-  });
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const target = document.querySelector(link.getAttribute("href"));
+        if (!target) return;
 
-  overlay.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    nav.classList.remove("active");
-    overlay.classList.remove("active");
-  });
-</script>
+        event.preventDefault();
+        const offset = header.offsetHeight + 12;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
 
+        window.scrollTo({ top, behavior: "smooth" });
+        closeMenu();
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    window.addEventListener("scroll", () => {
+      header.classList.toggle("scrolled", window.scrollY > 20);
+    });
+  </script>
 </body>
 </html>
