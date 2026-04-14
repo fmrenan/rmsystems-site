@@ -1,0 +1,12 @@
+<svg viewBox="58 28 167 77" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ícone -->
+  <circle cx="80" cy="80" r="22" fill="#4BCF50"/>
+  <circle cx="150" cy="50" r="22" fill="#3A7BD5"/>
+  <rect x="185" y="65" width="40" height="40" rx="6" fill="#9FE870"/>
+
+  <!-- Conexões -->
+  <line x1="100" y1="75" x2="130" y2="58" stroke="#3A7BD5" stroke-width="6" stroke-linecap="round"/>
+  <line x1="165" y1="62" x2="185" y2="80" stroke="#3A7BD5" stroke-width="6" stroke-linecap="round"/>
+
+</svg>
