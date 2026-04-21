@@ -520,6 +520,21 @@ p {
   font-size: 0.93rem;
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* Helps iOS Safari sample a dark color at the viewport bottom edge. */
+  body::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #060f1f;
+    pointer-events: none;
+    z-index: 2147483647;
+  }
+}
+
 .footer-synlead-link {
   margin-top: 8px;
 }
