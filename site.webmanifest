@@ -1,0 +1,16 @@
+{
+  "name": "RM Systems",
+  "short_name": "RM Systems",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060f1f",
+  "theme_color": "#060f1f",
+  "icons": [
+    {
+      "src": "/assets/img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

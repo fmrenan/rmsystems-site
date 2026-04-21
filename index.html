@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#060f1f" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#060f1f" />
-  <meta name="theme-color" content="#060f1f" id="theme-color-meta" />
+  <meta name="theme-color" content="#060f1f" />
+  <meta name="msapplication-TileColor" content="#060f1f" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
@@ -37,8 +38,9 @@
 
   <link rel="icon" href="favicon.ico" />
   <link rel="icon" type="image/svg+xml" href="assets/img/icon.svg" />
+  <link rel="manifest" href="site.webmanifest" />
 
-  <link rel="stylesheet" href="style.css?v=20260414-1" />
+  <link rel="stylesheet" href="style.css?v=20260421-1" />
 </head>
 <body>
   <header class="site-header" id="header">
@@ -303,16 +305,6 @@
     const nav = document.getElementById("nav");
     const overlay = document.getElementById("overlay");
     const navLinks = document.querySelectorAll('.nav a[href^="#"]');
-    const themeColorMeta = document.getElementById("theme-color-meta");
-    const headerThemeColor = "#060f1f";
-    const headerScrolledThemeColor = "#050d1a";
-
-    function syncThemeColor() {
-      if (!themeColorMeta) return;
-      const isScrolled = window.scrollY > 20;
-      themeColorMeta.setAttribute("content", isScrolled ? headerScrolledThemeColor : headerThemeColor);
-    }
-
     function closeMenu() {
       hamburger.classList.remove("active");
       nav.classList.remove("active");
@@ -351,10 +343,7 @@
 
     window.addEventListener("scroll", () => {
       header.classList.toggle("scrolled", window.scrollY > 20);
-      syncThemeColor();
     });
-
-    syncThemeColor();
   </script>
 </body>
 </html>

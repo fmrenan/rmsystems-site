@@ -30,6 +30,7 @@ html {
 body {
   font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
   color: var(--ink-900);
+  background-color: #060f1f;
   background:
     radial-gradient(circle at 15% 10%, rgba(37, 99, 235, 0.12), transparent 38%),
     radial-gradient(circle at 86% 2%, rgba(14, 165, 233, 0.1), transparent 32%),
@@ -98,13 +99,12 @@ p {
   z-index: 1200;
   padding-top: env(safe-area-inset-top);
   border-bottom: 1px solid transparent;
-  background: rgba(6, 15, 31, 0.76);
-  backdrop-filter: blur(14px);
+  background: #060f1f;
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 .site-header.scrolled {
-  background: rgba(6, 15, 31, 0.88);
+  background: #060f1f;
   border-color: rgba(255, 255, 255, 0.08);
 }
 
